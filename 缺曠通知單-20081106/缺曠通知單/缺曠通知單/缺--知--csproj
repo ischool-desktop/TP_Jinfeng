@@ -1,0 +1,155 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E7C5819D-C690-4D8B-BA12-7B0D913A6C02}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>缺曠通知單</RootNamespace>
+    <AssemblyName>缺曠通知單</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\..\SmartSchool 0.3.18 build 1%2820080814%29\Customize\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Aspose.Words, Version=4.4.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\ischool\kernel\Aspose.Words.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar2, Version=7.2.0.6, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\SmartSchool 0.3.18 build 1(20080814)\kernel\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="IntelliSchool.DSA30.Util, Version=3.2.20.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\SmartSchool 0.3.18 build 1(20080814)\kernel\IntelliSchool.DSA30.Util.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="SmartSchool.Common, Version=1.0.0.3, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\SmartSchool 0.3.18 build 1(20080814)\kernel\SmartSchool.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="SmartSchool.Common.DotNetBar, Version=1.0.0.4, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\SmartSchool 0.3.18 build 1(20080814)\kernel\SmartSchool.Common.DotNetBar.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="SmartSchool.Core.General, Version=1.0.1.10, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\SmartSchool 0.3.18 build 1(20080814)\kernel\SmartSchool.Core.General.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="SmartSchool.Customization.Data, Version=1.3.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\SmartSchool 0.3.18 build 1(20080814)\kernel\SmartSchool.Customization.Data.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="SmartSchool.Customization.PlugIn, Version=1.1.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\ischool\kernel\SmartSchool.Customization.PlugIn.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AbsenceNotificationConditionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AbsenceNotificationConditionForm.Designer.cs">
+      <DependentUpon>AbsenceNotificationConditionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AbsenceNotificationConfigForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AbsenceNotificationConfigForm.designer.cs">
+      <DependentUpon>AbsenceNotificationConfigForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AbsenceNotificationSelectDateRangeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AbsenceNotificationSelectDateRangeForm.designer.cs">
+      <DependentUpon>AbsenceNotificationSelectDateRangeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ActivityNotification.cs" />
+    <Compile Include="ActivityNotificationConfig.cs" />
+    <Compile Include="ActivityNotificationPreference.cs" />
+    <Compile Include="ActivityNotificationRecord.cs" />
+    <Compile Include="ActivityNotificationTemplate.cs" />
+    <Compile Include="AttendanceCondition.cs" />
+    <Compile Include="AttendanceConditions.cs" />
+    <Compile Include="AttendanceStatistics.cs" />
+    <Compile Include="AttendanceDocument.cs" />
+    <Compile Include="ISchoolDocument.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RewardStatistics.cs" />
+    <Compile Include="SelectTypeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectTypeForm.Designer.cs">
+      <DependentUpon>SelectTypeForm.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AbsenceNotificationConditionForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AbsenceNotificationConditionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AbsenceNotificationConfigForm.resx">
+      <DependentUpon>AbsenceNotificationConfigForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AbsenceNotificationSelectDateRangeForm.resx">
+      <DependentUpon>AbsenceNotificationSelectDateRangeForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectTypeForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SelectTypeForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loading5.gif" />
+    <None Include="Resources\缺曠通知單.doc" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

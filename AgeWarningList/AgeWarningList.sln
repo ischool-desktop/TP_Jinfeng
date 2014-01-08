@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgeWarningList", "AgeWarningList.csproj", "{5D1E65BB-7F18-4B26-8E51-A72620F15705}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D1E65BB-7F18-4B26-8E51-A72620F15705}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D1E65BB-7F18-4B26-8E51-A72620F15705}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D1E65BB-7F18-4B26-8E51-A72620F15705}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D1E65BB-7F18-4B26-8E51-A72620F15705}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
