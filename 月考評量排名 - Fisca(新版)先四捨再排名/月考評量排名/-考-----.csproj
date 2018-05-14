@@ -38,14 +38,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Aspose.Cells, Version=4.3.0.0, Culture=neutral, PublicKeyToken=9a40d5a4b59e5256, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Ischool_AE\modules\SHSchoolLoader\Aspose.Cells.dll</HintPath>
+    <Reference Include="Aspose.Cells">
+      <HintPath>library\Aspose.Cells.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Aspose.Words, Version=4.4.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Ischool_AE\modules\SHSchoolLoader\Aspose.Words.dll</HintPath>
+    <Reference Include="Aspose.Words">
+      <HintPath>library\Aspose.Words.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="DevComponents.DotNetBar2, Version=9.5.0.1, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
@@ -54,35 +52,35 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="FISCA">
-      <HintPath>..\..\..\Ischool_AE\kernel\FISCA.dll</HintPath>
+      <HintPath>library\FISCA.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="FISCA.Permission">
-      <HintPath>..\..\..\Ischool_AE\kernel\FISCA.Permission.dll</HintPath>
+      <HintPath>library\FISCA.Permission.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="FISCA.Presentation">
-      <HintPath>..\..\..\Ischool_AE\kernel\FISCA.Presentation.dll</HintPath>
+      <HintPath>library\FISCA.Presentation.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="K12.Data">
-      <HintPath>..\..\..\Ischool_AE\modules\SHSchoolLoader\K12.Data.dll</HintPath>
+      <HintPath>library\K12.Data.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="K12.Presentation">
-      <HintPath>..\..\..\Ischool_AE\modules\SHSchoolLoader\K12.Presentation.dll</HintPath>
+      <HintPath>library\K12.Presentation.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="SHSchool.Data">
-      <HintPath>..\..\..\Ischool_AE\modules\SHSchoolLoader\SHSchool.Data.dll</HintPath>
+      <HintPath>library\SHSchool.Data.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="SmartSchool.Customization.Data">
-      <HintPath>..\..\..\iSchoolOnFisca\modules\SHSchoolLoader\SmartSchool.Customization.Data.dll</HintPath>
+      <HintPath>library\SmartSchool.Customization.Data.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="SmartSchool.Customization.PlugIn">
-      <HintPath>..\..\..\iSchoolOnFisca\modules\SHSchoolLoader\SmartSchool.Customization.PlugIn.dll</HintPath>
+      <HintPath>library\SmartSchool.Customization.PlugIn.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />

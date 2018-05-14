@@ -15,12 +15,12 @@ namespace 月考評量排名
         [MainMethod ()]
         public static void Main() 
         {
-            RibbonFeature Feature = new RibbonFeature("SHEvaluation.Report1011205", "月考評量優等暨名次獎狀");
+            RibbonFeature Feature = new RibbonFeature("SHEvaluation.Report1011205", "月考評量優等");
             Catalog ClassCatalog = FISCA.Permission.RoleAclSource.Instance["班級"]["報表"];
             ClassCatalog.Add(Feature);
 
-            K12.Presentation.NLDPanels.Class.RibbonBarItems["資料統計"]["報表"]["成績相關報表"]["月考評量優等暨名次獎狀"].Enable = FISCA.Permission.UserAcl.Current["SHEvaluation.Report1011205"].Executable;
-            K12.Presentation.NLDPanels.Class.RibbonBarItems["資料統計"]["報表"]["成績相關報表"]["月考評量優等暨名次獎狀"].Click += (sender, e) =>
+            K12.Presentation.NLDPanels.Class.RibbonBarItems["資料統計"]["報表"]["成績相關報表"]["月考評量優等"].Enable = FISCA.Permission.UserAcl.Current["SHEvaluation.Report1011205"].Executable;
+            K12.Presentation.NLDPanels.Class.RibbonBarItems["資料統計"]["報表"]["成績相關報表"]["月考評量優等"].Click += (sender, e) =>
                 {
                     frm1 f1 = new frm1();
                     f1.ShowDialog();

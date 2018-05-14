@@ -76,6 +76,7 @@
             // btnToX1s
             // 
             this.btnToX1s.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnToX1s.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnToX1s.BackColor = System.Drawing.Color.Transparent;
             this.btnToX1s.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
             this.btnToX1s.Location = new System.Drawing.Point(196, 576);
@@ -391,6 +392,7 @@
             // btnToX2s
             // 
             this.btnToX2s.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnToX2s.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnToX2s.BackColor = System.Drawing.Color.Transparent;
             this.btnToX2s.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
             this.btnToX2s.Location = new System.Drawing.Point(11, 576);
@@ -398,6 +400,7 @@
             this.btnToX2s.Size = new System.Drawing.Size(95, 30);
             this.btnToX2s.TabIndex = 32;
             this.btnToX2s.Text = "製作獎狀";
+            this.btnToX2s.Visible = false;
             this.btnToX2s.Click += new System.EventHandler(this.btnToX2s_Click);
             // 
             // cboExamlst
@@ -428,6 +431,7 @@
             // 
             // lbxSubjct
             // 
+            this.lbxSubjct.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lbxSubjct.FormattingEnabled = true;
             this.lbxSubjct.ItemHeight = 17;
             this.lbxSubjct.Location = new System.Drawing.Point(12, 374);
@@ -518,6 +522,7 @@
             // 
             // cboReportSortType
             // 
+            this.cboReportSortType.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.cboReportSortType.DisplayMember = "Text";
             this.cboReportSortType.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.cboReportSortType.FormattingEnabled = true;
@@ -529,6 +534,7 @@
             // 
             // labelX5
             // 
+            this.labelX5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.labelX5.BackColor = System.Drawing.Color.Transparent;
             // 
             // 
@@ -568,10 +574,10 @@
             this.Controls.Add(this.groupPanel1);
             this.DoubleBuffered = true;
             this.MaximumSize = new System.Drawing.Size(330, 800);
-            this.MinimumSize = new System.Drawing.Size(330, 450);
+            this.MinimumSize = new System.Drawing.Size(330, 647);
             this.Name = "frm1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "月考評量優等暨名次獎狀";
+            this.Text = "月考評量優等";
             this.Load += new System.EventHandler(this.frm1_Load);
             this.groupPanel1.ResumeLayout(false);
             this.groupPanel1.PerformLayout();
